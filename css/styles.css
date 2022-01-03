@@ -1,17 +1,17 @@
-/* :root {
+:root {
 	--text-color: #757575;
 	--title-color: #212121;
 	--main-bg-color: #ffffff;
-	--accent-linktext-color: #2196f3;
-	--accent-button-bg-color: #2196f3;
-} */
+	--accent-linktext-color: #5cda4b;
+	--accent-button-bg-color: #5cda4b;
+}
 
-/* body {
+body {
 	font-family: "Roboto", sans-serif;
 	color: var(--text-color);
-} */
+}
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -40,17 +40,17 @@ img {
 
 button {
 	padding: 0;
-} */
+}
 
-/* .container {
+.container {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
-} */
+}
 
 /* Logo */
 
-/* .logo {
+.logo {
 	margin-right: 93px;
 
 	font-family: "Raleway", sans-serif;
@@ -67,10 +67,10 @@ button {
 
 .logo-light {
 	color: #ffffff;
-} */
+}
 
 /* Header */
-/* .header {
+.header {
 	border-bottom: 1px solid #ececec;
 }
 
@@ -150,14 +150,14 @@ button {
 
 .current {
 	color: var(--accent-linktext-color);
-} */
+}
 
-/* .section {
+.section {
 	padding-top: 94px;
 	padding-bottom: 94px;
-} */
+}
 
-/* .section-title {
+.section-title {
 	margin-bottom: 50px;
 
 	font-size: 36px;
@@ -166,11 +166,11 @@ button {
 	text-align: center;
 
 	color: var(--title-color);
-} */
+}
 
 /* Hero */
 
-/* .hero {
+.hero {
 	max-width: 1600px;
 	margin: 0 auto;
 	padding-top: 200px;
@@ -212,16 +212,16 @@ button {
 	letter-spacing: 0.06em;
 
 	color: #ffffff;
-	background-color: var(--accent-button-bg-color);
+	background-color: #5cda4b;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border-color: transparent;
 	cursor: pointer;
-} */
+}
 
 /* Features */
 
-/* .features {
+.features {
 	display: flex;
 }
 
@@ -260,11 +260,11 @@ button {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-} */
+}
 
 /* About */
 
-/* .about-section {
+.about-section {
 	padding-top: 0;
 }
 
@@ -297,11 +297,11 @@ button {
 
 	color: #ffffff;
 	background-color: rgba(47, 48, 58, 0.8);
-} */
+}
 
 /* Team */
 
-/* .team-section {
+.team-section {
 	background-color: #f5f4fa;
 }
 
@@ -372,13 +372,13 @@ button {
 
 .team-social-link:hover,
 .team-social-link:focus {
-	background-color: #2196f3;
+	background-color: #5cda4b;
 	fill: #ffffff;
-} */
+}
 
 /* Client */
 
-/* .clients {
+.clients {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -408,13 +408,13 @@ button {
 
 .clients-link:hover,
 .clients-link:focus {
-	border-color: #2196f3;
-	fill: #2196f3;
-} */
+	border-color: #5cda4b;
+	fill: #5cda4b;
+}
 
 /* Footer */
 
-/* .footer {
+.footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 
@@ -509,7 +509,7 @@ a[href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8"]
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-	background-color: #2196f3;
+	background-color: #5cda4b;
 }
 
 .subscribe-email {
@@ -538,7 +538,7 @@ a[href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8"]
 	letter-spacing: 0.06em;
 
 	color: #ffffff;
-	background-color: #2196f3;
+	background-color: #5cda4b;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border-color: transparent;
@@ -548,11 +548,11 @@ a[href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8"]
 .subscribe-icon {
 	margin-left: 10px;
 	fill: currentColor;
-} */
+}
 
 /* Portfolio */
 
-/* .filter {
+.filter {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
@@ -663,9 +663,9 @@ a[href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8"]
 	letter-spacing: 0.03em;
 
 	color: #757575;
-} */
+}
 
-/* .visually-hidden {
+.visually-hidden {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
@@ -676,9 +676,9 @@ a[href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8"]
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	margin: -1px;
-} */
+}
 
-/* .backdrop {
+.backdrop {
 	width: 100vw;
 	height: 100vh;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -897,9 +897,10 @@ a[href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8"]
 	letter-spacing: 0.06em;
 
 	color: #ffffff;
-	background-color: #2196f3;
+	background-color: #5cda4b;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border-color: transparent;
 	cursor: pointer;
-} */
+}
+
