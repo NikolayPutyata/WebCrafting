@@ -1074,4 +1074,9 @@ img {
 	letter-spacing: 0.03em;
 	color: #757575;
 }
+.special__text {
+	text-align: center;
+	color: #5cda4b;
+	margin-bottom: 20px;
+}
 /*# sourceMappingURL=main.min.css.map */
