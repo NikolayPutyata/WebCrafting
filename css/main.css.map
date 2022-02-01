@@ -27,6 +27,7 @@
         "../sass/layout/_clients.scss",
         "../sass/layout/_footer.scss",
         "../sass/layout/_portfolio.scss"
+        
     ],
     "names": [],
     "file": "main.css"
