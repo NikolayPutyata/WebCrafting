@@ -778,6 +778,23 @@ img {
 		flex-basis: calc((100% - 8 * 15px) / 4);
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.team__item:not(:last-child) {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.team__item {
+		margin: 15px;
+		flex-basis: calc((100% - 4 * 15px) / 2);
+	}
+}
+@media screen and (min-width: 1200px) {
+	.team__item {
+		flex-basis: calc((100% - 8 * 15px) / 4);
+	}
+}
 .team__content {
 	padding-top: 30px;
 	padding-bottom: 24px;
@@ -1076,10 +1093,14 @@ img {
 }
 .special__text {
 	text-align: center;
-	color: #5cda4b;
+	color: #9feb95;
 	margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.min.css.map */
 
 .about-project-comment {
+	font-style: italic;
+	padding: 10px 20px 0px 20px;
+	font-weight: 600;
+	font-size: large;
 }

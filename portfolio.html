@@ -117,12 +117,12 @@
         <section class="section block">
             <div class="container">
                 <h1 class="section__title visually-hidden">Портфолио</h1>
-                <ul class="filter">
-                    <li class="filter__item"><button type="button" class="filter__button">Все</button></li>
-                    <li class="filter__item"><button type="button" class="filter__button">Веб-сайты</button></li>
-                    <li class="filter__item"><button type="button" class="filter__button">Приложения</button></li>
-                    <li class="filter__item"><button type="button" class="filter__button">Дизайн</button></li>
-                    <li class="filter__item"><button type="button" class="filter__button">Маркетинг</button></li>
+                <ul id="menu" class="filter">
+                    <li class="filter__item"><a href="#1"><button type="button" class="filter__button">Все</button></a></li>
+                    <li class="filter__item"><a href="#2"><button type="button" class="filter__button">Персональные</button></a></li>
+                    <li class="filter__item"><a href="#3"><button type="button" class="filter__button">Корпоративные</button></a></li>
+                    <li class="filter__item"><a href="#4"><button type="button" class="filter__button">Магазины</button></a></li>
+                    <li class="filter__item"><a href="#5"><button type="button" class="filter__button">Собственный дизайн</button></a></li>
                 </ul>
                 <ul class="portfolio">
                     <li class="portfolio__item">
@@ -138,7 +138,7 @@
                                     платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 class="portfolio__title">Сайт-визитка</h2>
+                                <h2 id="1" class="portfolio__title">Сайт-визитка</h2>
                                 <p class="portfolio__text">20$</p>
                             </div>
                         </a>
@@ -155,7 +155,7 @@
                                 <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam earum ut corrupti? Aut qui quam illum id mollitia. Esse suscipit ex, tenetur eos architecto non odit veniam cumque. Velit, nam?</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 class="portfolio__title">Интернет-магазин</h2>
+                                <h2 id="2" class="portfolio__title">Интернет-магазин</h2>
                                 <p class="portfolio__text">50$</p>
                             </div>
                         </a>
@@ -172,8 +172,8 @@
                                 <p class="portfolio__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos minima ex odio. Corporis atque aut eos cumque, iure ipsum cupiditate suscipit, commodi recusandae consequatur sequi repellat velit nostrum deserunt aliquam?</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 class="portfolio__title">Информационный сайт</h2>
-                                <p class="portfolio__text">Приложение</p>
+                                <h2 id="3" class="portfolio__title">Информационный сайт</h2>
+                                <p class="portfolio__text">price</p>
                             </div>
                         </a>
                     </li>
@@ -189,8 +189,8 @@
                                 <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum reiciendis veritatis eius temporibus magni quae blanditiis eum numquam explicabo expedita nesciunt, iste rerum saepe aut error deleniti fugiat velit ipsam.</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 class="portfolio__title">Игровой портал</h2>
-                                <p class="portfolio__text">Маркетинг</p>
+                                <h2 id="4" class="portfolio__title">Игровой портал</h2>
+                                <p class="portfolio__text">price</p>
                             </div>
                         </a>
                     </li>
@@ -206,8 +206,8 @@
                                 <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ea dolor non minus numquam magni eius fugiat quasi minima? Quia cumque vero rerum cum sed accusamus asperiores voluptatum ut! Hic!</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 class="portfolio__title">Корпоративный информационный web-сайт</h2>
-                                <p class="portfolio__text">Приложение</p>
+                                <h2 id="5" class="portfolio__title">Корпоративный информационный web-сайт</h2>
+                                <p class="portfolio__text">price</p>
                             </div>
                         </a>
                     </li>
@@ -276,6 +276,63 @@
                             <div class="portfolio__content">
                                 <h2 class="portfolio__title">Персональный проект</h2>
                                 <p class="portfolio__text"></p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                            <div class="portfolio__overlay">
+                                <picture>
+                                    <source srcset="./images/port6.jpg 1x, ./images/port6@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port6-tab.jpg 1x, ./images/port6-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port6-mob.jpg 1x, ./images/port6-mob@2x.jpg 2x">
+                                    <img src="./images/port6.jpg" alt="Визуализация сайта инспирэйшн хэс ноу бордэрс">
+                                </picture>
+                                <p class="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+                                    tempora consequuntur placeat facilis explicabo quos voluptatum fuga, corrupti distinctio illo corporis
+                                    repudiandae animi repellat labore inventore? Voluptatem nisi delectus voluptas.</p>
+                            </div>
+                            <div class="portfolio__content">
+                                <h2 class="portfolio__title">Корпоративный имиджевый web-сайт</h2>
+                                <p class="portfolio__text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                            <div class="portfolio__overlay">
+                                <picture>
+                                    <source srcset="./images/port7.jpg 1x, ./images/port7@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port7-tab.jpg 1x, ./images/port7-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port7-mob.jpg 1x, ./images/port7-mob@2x.jpg 2x">
+                                    <img src="./images/port7.jpg" alt="Визуализация дизайна издания лимитэд эдишн">
+                                </picture>
+                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores amet
+                                    cumque dicta dignissimos ullam nobis culpa vel vero, consequuntur cum ex fugit accusamus commodi dolorem
+                                    expedita quos. Odit, rerum nulla.</p>
+                            </div>
+                            <div class="portfolio__content">
+                                <h2 class="portfolio__title">Персональный блог</h2>
+                                <p class="portfolio__text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__item">
+                        <a href="" class="portfolio__link">
+                            <div class="portfolio__overlay">
+                                <picture>
+                                    <source srcset="./images/port8.jpg 1x, ./images/port8@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port8-tab.jpg 1x, ./images/port8-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port8-mob.jpg 1x, ./images/port8-mob@2x.jpg 2x">
+                                    <img src="./images/port8.jpg" alt="Визуализация маркетинга проекта лаб">
+                                </picture>
+                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                                    reprehenderit provident quod eius qui dolore porro hic sequi nemo sint maxime cum error? Officiis
+                                    voluptates sit commodi, nostrum aut quasi!</p>
+                            </div>
+                            <div class="portfolio__content">
+                                <h2 class="portfolio__title">Сайт-форум</h2>
+                                <p class="portfolio__text">Маркетинг</p>
                             </div>
                         </a>
                     </li>
@@ -351,4 +408,6 @@
     </footer>
 </body>
 <script src="./js/mobile-menu.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/speed-switch.js"></script>
 </html>
