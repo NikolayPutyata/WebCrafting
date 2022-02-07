@@ -1120,7 +1120,7 @@ button:focus {
 }
 /* Собственно сам слайдер */
 .slider {
-	max-width: 70%;
+	max-width: 90%;
 	position: relative;
 	margin: auto;
 	height: 500px;
