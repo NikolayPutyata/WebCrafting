@@ -172,6 +172,10 @@ img {
 	border-color: transparent;
 	cursor: pointer;
 }
+.button:hover,
+button:focus {
+	background-color: #58b64b;
+}
 .socials {
 	display: flex;
 	justify-content: center;
@@ -1207,4 +1211,9 @@ img {
 	to {
 		opacity: 1;
 	}
+}
+
+.special-button {
+	margin-top: 50px;
+	margin-bottom: 0;
 }

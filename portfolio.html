@@ -118,14 +118,14 @@
             <div class="container">
                 <h1 class="section__title visually-hidden">Портфолио</h1>
                 <ul id="menu" class="filter">
-                    <li class="filter__item"><a href="#1"><button type="button" class="filter__button">Все</button></a></li>
-                    <li class="filter__item"><a href="#2"><button type="button" class="filter__button">Персональные</button></a></li>
-                    <li class="filter__item"><a href="#3"><button type="button" class="filter__button">Корпоративные</button></a></li>
-                    <li class="filter__item"><a href="#4"><button type="button" class="filter__button">Магазины</button></a></li>
-                    <li class="filter__item"><a href="#5"><button type="button" class="filter__button">Собственный дизайн</button></a></li>
+                    <!-- <li class="filter__item"><a href="#1"><button type="button" class="filter__button">Все</button></a></li> -->
+                    <li class="filter__item"><a href="#personal"><button type="button" class="filter__button">Персональные</button></a></li>
+                    <li class="filter__item"><a href="#corporate"><button type="button" class="filter__button">Корпоративные</button></a></li>
+                    <li class="filter__item"><a href="#markets"><button type="button" class="filter__button">Магазины</button></a></li>
+                    <li class="filter__item"><a href="#personaldesign"><button type="button" class="filter__button">Собственный дизайн</button></a></li>
                 </ul>
                 <ul class="portfolio">
-                    <li class="portfolio__item">
+                    <li class="portfolio__item" id="personal">
                         <a href="./card-1-business.html" class="portfolio__link">
                             <div class="portfolio__overlay">
                                 <picture>
@@ -144,19 +144,21 @@
                         </a>
                     </li>
                     <li class="portfolio__item">
-                        <a href="./card-2-shop.html" class="portfolio__link">
+                        <a href="./card-7-blog.html" class="portfolio__link">
                             <div class="portfolio__overlay">
                                 <picture>
-                                    <source srcset="./images/port2.jpg 1x, ./images/port2@2x.jpg 2x" media="(min-width:1200px)">
-                                    <source srcset="./images/port2-tab.jpg 1x, ./images/port2-tab@2x.jpg 2x" media="(min-width:768px)">
-                                    <source srcset="./images/port2-mob.jpg 1x, ./images/port2-mob@2x.jpg 2x">
-                                    <img src="./images/port2.jpg" alt="Визуализация дизайна постера нью орлеан против голдэн стар">
+                                    <source srcset="./images/port7.jpg 1x, ./images/port7@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port7-tab.jpg 1x, ./images/port7-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port7-mob.jpg 1x, ./images/port7-mob@2x.jpg 2x">
+                                    <img src="./images/port7.jpg" alt="Визуализация дизайна издания лимитэд эдишн">
                                 </picture>
-                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam earum ut corrupti? Aut qui quam illum id mollitia. Esse suscipit ex, tenetur eos architecto non odit veniam cumque. Velit, nam?</p>
+                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores amet
+                                    cumque dicta dignissimos ullam nobis culpa vel vero, consequuntur cum ex fugit accusamus commodi dolorem
+                                    expedita quos. Odit, rerum nulla.</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 id="2" class="portfolio__title">Интернет-магазин</h2>
-                                <p class="portfolio__text">50$</p>
+                                <h2 class="portfolio__title">Персональный блог</h2>
+                                <p class="portfolio__text">Дизайн</p>
                             </div>
                         </a>
                     </li>
@@ -177,20 +179,22 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
-                        <a href="./card-5-game.html" class="portfolio__link">
+                    <li class="portfolio__item" id="corporate">
+                        <a href="./card-9-forum.html" class="portfolio__link">
                             <div class="portfolio__overlay">
                                 <picture>
-                                    <source srcset="./images/port4.jpg 1x, ./images/port4@2x.jpg 2x" media="(min-width:1200px)">
-                                    <source srcset="./images/port4-tab.jpg 1x, ./images/port4-tab@2x.jpg 2x" media="(min-width:768px)">
-                                    <source srcset="./images/port4-mob.jpg 1x, ./images/port4-mob@2x.jpg 2x">
-                                    <img src="./images/port4.jpg" alt="Визуализация маркетинга проекта прайм">
+                                    <source srcset="./images/port8.jpg 1x, ./images/port8@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port8-tab.jpg 1x, ./images/port8-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port8-mob.jpg 1x, ./images/port8-mob@2x.jpg 2x">
+                                    <img src="./images/port8.jpg" alt="Визуализация маркетинга проекта лаб">
                                 </picture>
-                                <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum reiciendis veritatis eius temporibus magni quae blanditiis eum numquam explicabo expedita nesciunt, iste rerum saepe aut error deleniti fugiat velit ipsam.</p>
+                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                                    reprehenderit provident quod eius qui dolore porro hic sequi nemo sint maxime cum error? Officiis
+                                    voluptates sit commodi, nostrum aut quasi!</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 id="4" class="portfolio__title">Игровой портал</h2>
-                                <p class="portfolio__text">price</p>
+                                <h2 class="portfolio__title">Сайт-форум</h2>
+                                <p class="portfolio__text">Маркетинг</p>
                             </div>
                         </a>
                     </li>
@@ -228,7 +232,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio__item">
+                    <!-- <li class="portfolio__item">
                         <a href="./card-7-blog.html" class="portfolio__link">
                             <div class="portfolio__overlay">
                                 <picture>
@@ -244,43 +248,9 @@
                                 <p class="portfolio__text">Дизайн</p>
                             </div>
                         </a>
-                    </li>
-                    <li class="portfolio__item">
-                        <a href="./card-9-forum.html" class="portfolio__link">
-                            <div class="portfolio__overlay">
-                                <picture>
-                                    <source srcset="./images/port8.jpg 1x, ./images/port8@2x.jpg 2x" media="(min-width:1200px)">
-                                    <source srcset="./images/port8-tab.jpg 1x, ./images/port8-tab@2x.jpg 2x" media="(min-width:768px)">
-                                    <source srcset="./images/port8-mob.jpg 1x, ./images/port8-mob@2x.jpg 2x">
-                                    <img src="./images/port8.jpg" alt="Визуализация маркетинга проекта лаб">
-                                </picture>
-                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, reprehenderit provident quod eius qui dolore porro hic sequi nemo sint maxime cum error? Officiis voluptates sit commodi, nostrum aut quasi!</p>
-                            </div>
-                            <div class="portfolio__content">
-                                <h2 class="portfolio__title">Сайт-форум</h2>
-                                <p class="portfolio__text">Маркетинг</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="portfolio__item">
-                        <a href="./card-8-personaly.html" class="portfolio__link">
-                            <div class="portfolio__overlay">
-                                <picture>
-                                    <source srcset="./images/port9.jpg 1x, ./images/port9@2x.jpg 2x" media="(min-width:1200px)">
-                                    <source srcset="./images/port9-tab.jpg 1x, ./images/port9-tab@2x.jpg 2x" media="(min-width:768px)">
-                                    <source srcset="./images/port9-mob.jpg 1x, ./images/port9-mob@2x.jpg 2x">
-                                    <img src="./images/port9.jpg" alt="Визуализация приложения гровинг бизинэс">
-                                </picture>
-                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum esse vel consequuntur eius id expedita omnis dolorem tempore impedit? Ratione distinctio velit rem consectetur pariatur sapiente dolorem. Reprehenderit, officiis exercitationem.</p>
-                            </div>
-                            <div class="portfolio__content">
-                                <h2 class="portfolio__title">Персональный проект</h2>
-                                <p class="portfolio__text"></p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="portfolio__item">
-                        <a href="" class="portfolio__link">
+                    </li> -->
+                    <li class="portfolio__item" id="markets">
+                        <a href="./card-10-minimarket.html" class="portfolio__link">
                             <div class="portfolio__overlay">
                                 <picture>
                                     <source srcset="./images/port6.jpg 1x, ./images/port6@2x.jpg 2x" media="(min-width:1200px)">
@@ -293,31 +263,70 @@
                                     repudiandae animi repellat labore inventore? Voluptatem nisi delectus voluptas.</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 class="portfolio__title">Корпоративный имиджевый web-сайт</h2>
-                                <p class="portfolio__text">Веб-сайт</p>
+                                <h2 class="portfolio__title">Мини-магазин</h2>
+                                <p class="portfolio__text">70$</p>
                             </div>
                         </a>
                     </li>
                     <li class="portfolio__item">
-                        <a href="" class="portfolio__link">
+                        <a href="./card-2-shop.html" class="portfolio__link">
                             <div class="portfolio__overlay">
                                 <picture>
-                                    <source srcset="./images/port7.jpg 1x, ./images/port7@2x.jpg 2x" media="(min-width:1200px)">
-                                    <source srcset="./images/port7-tab.jpg 1x, ./images/port7-tab@2x.jpg 2x" media="(min-width:768px)">
-                                    <source srcset="./images/port7-mob.jpg 1x, ./images/port7-mob@2x.jpg 2x">
-                                    <img src="./images/port7.jpg" alt="Визуализация дизайна издания лимитэд эдишн">
+                                    <source srcset="./images/port2.jpg 1x, ./images/port2@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port2-tab.jpg 1x, ./images/port2-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port2-mob.jpg 1x, ./images/port2-mob@2x.jpg 2x">
+                                    <img src="./images/port2.jpg" alt="Визуализация дизайна постера нью орлеан против голдэн стар">
                                 </picture>
-                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores amet
-                                    cumque dicta dignissimos ullam nobis culpa vel vero, consequuntur cum ex fugit accusamus commodi dolorem
-                                    expedita quos. Odit, rerum nulla.</p>
+                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam earum ut
+                                    corrupti? Aut qui quam illum id mollitia. Esse suscipit ex, tenetur eos architecto non odit veniam
+                                    cumque. Velit, nam?</p>
                             </div>
                             <div class="portfolio__content">
-                                <h2 class="portfolio__title">Персональный блог</h2>
-                                <p class="portfolio__text">Дизайн</p>
+                                <h2 id="2" class="portfolio__title">Интернет-магазин</h2>
+                                <p class="portfolio__text">50$</p>
                             </div>
                         </a>
                     </li>
+                    
                     <li class="portfolio__item">
+                        <a href="./card-5-game.html" class="portfolio__link">
+                            <div class="portfolio__overlay">
+                                <picture>
+                                    <source srcset="./images/port4.jpg 1x, ./images/port4@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port4-tab.jpg 1x, ./images/port4-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port4-mob.jpg 1x, ./images/port4-mob@2x.jpg 2x">
+                                    <img src="./images/port4.jpg" alt="Визуализация маркетинга проекта прайм">
+                                </picture>
+                                <p class="portfolio__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+                                    reiciendis veritatis eius temporibus magni quae blanditiis eum numquam explicabo expedita nesciunt, iste
+                                    rerum saepe aut error deleniti fugiat velit ipsam.</p>
+                            </div>
+                            <div class="portfolio__content">
+                                <h2 id="4" class="portfolio__title">Игровой портал</h2>
+                                <p class="portfolio__text">price</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio__item" id="personaldesign">
+                        <a href="./card-8-personaly.html" class="portfolio__link">
+                            <div class="portfolio__overlay">
+                                <picture>
+                                    <source srcset="./images/port9.jpg 1x, ./images/port9@2x.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/port9-tab.jpg 1x, ./images/port9-tab@2x.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/port9-mob.jpg 1x, ./images/port9-mob@2x.jpg 2x">
+                                    <img src="./images/port9.jpg" alt="Визуализация приложения гровинг бизинэс">
+                                </picture>
+                                <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum esse vel
+                                    consequuntur eius id expedita omnis dolorem tempore impedit? Ratione distinctio velit rem consectetur
+                                    pariatur sapiente dolorem. Reprehenderit, officiis exercitationem.</p>
+                            </div>
+                            <div class="portfolio__content">
+                                <h2 class="portfolio__title">Персональный проект</h2>
+                                <p class="portfolio__text"></p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- <li class="portfolio__item">
                         <a href="" class="portfolio__link">
                             <div class="portfolio__overlay">
                                 <picture>
@@ -335,7 +344,7 @@
                                 <p class="portfolio__text">Маркетинг</p>
                             </div>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </section>
@@ -346,11 +355,9 @@
                 <a href="./index.html" class="logo footer__logo">Web<span lang="en" class="logo--light">Crafting</span></a>
                 <address>
                     <ul class="address">
-                        <li class="address__item">
-                            <a href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8" target="_blank" class="address__link">г. Киев,
-                                пр-т Леси
-                                Украинки, 26</a>
-                        </li>
+                        <!-- <li class="address__item">
+                            <a href="https://goo.gl/maps/Sd4Lendt8BvaJmYn8" target="_blank" class="address__link"></a>
+                        </li> -->
                         <li class="address__item">
                             <a href="mailto:web.crafting24@gmail.com" class="address__link">web.crafting24@gmail.com</a>
                         </li>
@@ -370,13 +377,13 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="socials__item">
+                    <!-- <li class="socials__item">
                         <a href="" class="socials__link socials__link--theme-dark">
                             <svg class="socials__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
-                    </li>
+                    </li> -->
                     <li class="socials__item">
                         <a href="" class="socials__link socials__link--theme-dark">
                             <svg class="socials__icon" width="20" height="20">
