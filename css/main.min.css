@@ -194,7 +194,7 @@ button:focus {
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
-	border-radius: 50%;
+	border-radius: 35%;
 	fill: #afb1b8;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1097,7 +1097,7 @@ button:focus {
 }
 .about-project-comment {
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 400;
 	padding: 0px 15px 0px 15px;
 }
 .special__text {
@@ -1215,5 +1215,5 @@ button:focus {
 
 .special-button {
 	margin-top: 50px;
-	margin-bottom: 0;
+	margin-bottom: 50px;
 }
